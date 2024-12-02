@@ -1,0 +1,3 @@
+[submodule "packages/app/src/assets"]
+	path = packages/app/src/assets
+	url = git@github.com:yongheng2016/src-bex.git
