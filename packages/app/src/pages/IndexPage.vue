@@ -6,6 +6,7 @@
       :todos="todos"
       :meta="meta"
     ></example-component>
+    <img :src="icon" alt="">
   </q-page>
 </template>
 
@@ -13,6 +14,7 @@
 import { ref } from 'vue';
 import { Todo, Meta } from 'components/models';
 import ExampleComponent from 'components/ExampleComponent.vue';
+import icon from 'assets/quasar-logo-vertical.svg'
 
 defineOptions({
   name: 'IndexPage'

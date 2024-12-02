@@ -1,0 +1,24 @@
+[submodule "submodule-B"]
+	path = submodule-B
+	url = git@github.com:yongheng2016/submodule-B.git
+[submodule "test"]
+	path = test
+	url = git@github.com:yongheng2016/submodule-B.git
+[submodule "packages/app/submodule-C"]
+	path = packages/app/submodule-C
+	url = git@github.com:yongheng2016/submodule-C.git
+[submodule "packages/app/packages/app/src-bex"]
+	path = packages/app/packages/app/src-bex
+	url = git@github.com:yongheng2016/src-bex.git
+[submodule "packages/app/src-bex"]
+	path = packages/app/src-bex
+	url = git@github.com:yongheng2016/src-bex.git
+[submodule "packages/app/assets"]
+	path = packages/app/assets
+	url = git@github.com:yongheng2016/src-bex.git
+[submodule "packages/app/packages/app/src/assets"]
+	path = packages/app/packages/app/src/assets
+	url = git@github.com:yongheng2016/src-bex.git
+[submodule "packages/app/src/assets"]
+	path = packages/app/src/assets
+	url = git@github.com:yongheng2016/src-bex.git
