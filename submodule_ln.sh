@@ -2,7 +2,7 @@
 #!/bin/bash
 
 CURRENT_DIR=$(pwd)
-SUBMODULE_PATH="packages/web-target"
+SUBMODULE_PATH="packages/web-target/src"
 LINK_PATH="$CURRENT_DIR/packages/app/src" 
 REPO_URL="git@github.com:yongheng2016/src-bex.git"
 SUBMODULE_PATH="$CURRENT_DIR/$SUBMODULE_PATH" 
