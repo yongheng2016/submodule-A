@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "postinstall" : "chmod +x submodule_ln.sh & ./submodule_ln.sh"
+    "submodule_ln": "chmod +x submodule_ln.sh & ./submodule_ln.sh",
+    "postinstall" : "npm run submodule_ln"
   },
   "keywords": [],
   "author": "",

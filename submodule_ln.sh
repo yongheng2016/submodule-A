@@ -2,8 +2,8 @@
 #!/bin/bash
 
 CURRENT_DIR=$(pwd)
-SUBMODULE_PATH="packages/app/temp18"
-LINK_PATH="$CURRENT_DIR/packages/app/src/temp18" 
+SUBMODULE_PATH="packages/web-target"
+LINK_PATH="$CURRENT_DIR/packages/app/temp19" 
 REPO_URL="git@github.com:yongheng2016/src-bex.git"
 SUBMODULE_PATH="$CURRENT_DIR/$SUBMODULE_PATH" 
 
