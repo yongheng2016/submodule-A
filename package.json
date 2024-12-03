@@ -2,6 +2,7 @@
   "name": "submodule-a",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "submodule_ln": "chmod +x submodule_ln.sh & ./submodule_ln.sh",
     "postinstall" : "npm run submodule_ln"
