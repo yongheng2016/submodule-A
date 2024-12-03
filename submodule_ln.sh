@@ -3,7 +3,7 @@
 
 CURRENT_DIR=$(pwd)
 SUBMODULE_PATH="packages/web-target"
-LINK_PATH="$CURRENT_DIR/packages/app/temp19" 
+LINK_PATH="$CURRENT_DIR/packages/app/src" 
 REPO_URL="git@github.com:yongheng2016/src-bex.git"
 SUBMODULE_PATH="$CURRENT_DIR/$SUBMODULE_PATH" 
 
