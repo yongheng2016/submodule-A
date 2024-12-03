@@ -11,9 +11,6 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "lerna": "^6.4.1"
   }
